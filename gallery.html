@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Bikram Barman</title>
+    <meta name="description" content="Photo Gallery of Bikram Barman's Academic and Professional Activities">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">Bikram Barman</a>
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="research.html" class="nav-link">Research & Experience</a></li>
+                    <li><a href="scholarships.html" class="nav-link">Scholarships & Affiliations</a></li>
+                    <li><a href="conferences.html" class="nav-link">Conferences & Talks</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <article class="content-page">
+                <header class="page-header">
+                    <h1 class="page-title">Gallery</h1>
+                    <p class="page-description">Academic conferences, research activities, and professional events</p>
+                </header>
+
+                <section class="gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-caption="Conference presentation at University of Cambridge">
+                            <img src="assets/images/gallery/conference-1.jpg" alt="Conference presentation at University of Cambridge" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="Research workshop at Utrecht University">
+                            <img src="assets/images/gallery/workshop-1.jpg" alt="Research workshop at Utrecht University" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="Meeting of Young Minds conference at IIT Bombay">
+                            <img src="assets/images/gallery/conference-2.jpg" alt="Meeting of Young Minds conference at IIT Bombay" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="Field research in rural India">
+                            <img src="assets/images/gallery/fieldwork-1.jpg" alt="Field research in rural India" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="G20 event presentation in Bengaluru">
+                            <img src="assets/images/gallery/g20-event.jpg" alt="G20 event presentation in Bengaluru" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="British Society of Gerontology conference">
+                            <img src="assets/images/gallery/bsg-conference.jpg" alt="British Society of Gerontology conference" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="Research collaboration at ISEC Bengaluru">
+                            <img src="assets/images/gallery/isec-research.jpg" alt="Research collaboration at ISEC Bengaluru" loading="lazy">
+                        </div>
+                        
+                        <div class="gallery-item" data-caption="Data analysis workshop">
+                            <img src="assets/images/gallery/data-workshop.jpg" alt="Data analysis workshop" loading="lazy">
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer" aria-hidden="true">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+            <img id="lightbox-image" src="" alt="" class="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+            <button class="lightbox-prev" aria-label="Previous image">&#8249;</button>
+            <button class="lightbox-next" aria-label="Next image">&#8250;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bikram Barman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bikram Barman</title>
+    <meta name="description" content="Contact Bikram Barman - PhD Scholar in International Development Studies">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">Bikram Barman</a>
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="research.html" class="nav-link">Research & Experience</a></li>
+                    <li><a href="scholarships.html" class="nav-link">Scholarships & Affiliations</a></li>
+                    <li><a href="conferences.html" class="nav-link">Conferences & Talks</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <article class="content-page">
+                <header class="page-header">
+                    <h1 class="page-title">Contact</h1>
+                </header>
+
+                <section class="contact-info">
+                    <div class="contact-grid">
+                        <div class="contact-details">
+                            <h2>Get in Touch</h2>
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:bikrambarman.id@gmail.com">bikrambarman.id@gmail.com</a></p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3>Affiliation</h3>
+                                <p>PhD Scholar in International Development Studies<br>
+                                Utrecht University, Netherlands &<br>
+                                Institute for Social and Economic Change, Bengaluru, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-section">
+                            <h2>Send a Message</h2>
+                            <form class="contact-form" id="contact-form" action="#" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Name *</label>
+                                    <input type="text" id="name" name="name" required aria-describedby="name-error">
+                                    <span class="error-message" id="name-error"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                    <span class="error-message" id="email-error"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Subject *</label>
+                                    <input type="text" id="subject" name="subject" required aria-describedby="subject-error">
+                                    <span class="error-message" id="subject-error"></span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+                                    <span class="error-message" id="message-error"></span>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                            
+                            <div id="form-status" class="form-status" role="alert" aria-live="polite"></div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bikram Barman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
+</body>
+</html>
